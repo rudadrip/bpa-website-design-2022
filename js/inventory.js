@@ -29,7 +29,7 @@ function insertCars() {
       header.textContent = user.name
       price.textContent = "$"+user.price.toLocaleString()
       desc.textContent = user.description 
-      picture.src = "/assets/cars/"+user.id+"/01.jpg"
+      picture.src = "/bpa-website-design-2022/assets/cars/"+user.id+"/01.jpg"
       view.href = "view.html?id="+user.id;
       carContainer.append(card)
       return { name: user.name, price: user.price, description: user.description, picture: user.picture, view: user.view, element: card }
