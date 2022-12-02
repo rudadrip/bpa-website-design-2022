@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name":"2013 Lexus RX 350",
+    "brand":"Lexus",
+    "price": 21827, 
+    "mileage": 54002,
+    "engine":"6 Cylinder",
+    "description":"This spatious yet realiable car is the true meaning of Japanese luxury",
+    "color":"Silver",
+    "interior": "Black",
+    "drive": "AWD",
+    "mpg1": 20,
+    "mpg2": 27,
+    "transmission": "Automatic"
+  },
+  {
+    "id": 2,
+    "name":"2020 Ford Escape",
+    "brand":"Ford",
+    "price": 24699, 
+    "mileage": 35014,
+    "engine":"3 Cylinder",
+    "description":"The new and redesigned Ford Escape will appeal to those who want a well built car",
+    "color":"Silver",
+    "interior": "Tan/Black",
+    "drive": "AWD & Rear Wheel",
+    "mpg1": 26,
+    "mpg2": 31,
+    "transmission": "Automatic"
+  },
+  { 
+    "id": 3,
+    "name":"2017 Honda Civic",
+    "brand":"Honda",
+    "price": 18499, 
+    "mileage": 56777,
+    "engine":"3 Cylinder",
+    "description":"The Honda Civic is world-renowned for lasting for a lifetime. This Sedan will last forever.",
+    "color":"Silver",
+    "interior": "Tan/Black",
+    "drive": "AWD & Rear Wheel",
+    "mpg1": 26,
+    "mpg2": 31,
+    "transmission": "Automatic"
+  },
+  { 
+    "id": 4,
+    "name":"2008 Toyota RAV4",
+    "brand":"Toyota",
+    "price": 12675, 
+    "mileage": 85274,
+    "engine":"6 Cylinder",
+    "description":"This reliable has a spatious interior and also comes with builtin DVD Players",
+    "color":"Silver",
+    "interior": "Silver",
+    "drive": "AWD",
+    "mpg1": 18,
+    "mpg2": 27,
+    "transmission": "Automatic"
+  }
+]

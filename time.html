@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Huron Auto</title>
+  <script src="/js/time.js" defer></script>
+  <html data-theme="emerald"></html> 
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="hero bg-base-100" style="padding-top: 40px;">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">Time Selection</h1>
+        <br>
+        <p>What time is the most convienient for you?</p>
+        <p>We are open...</p>
+        <p>Monday-Saturday: 10am - 6pm</p>
+        <p><a href="index.html"><u>Back Home</u></a></p>
+      </div>
+    </div>
+  </div>
+  <section class="py-6"></section>
+  <div class="flex flex-col justify-center items-center">
+    <p class="text 3xl font-bold">Date:</p>
+    <section class="py-2"></section>
+    <input type="date" id="reservation" name="reservation">
+    <section class="py-2"></section>
+    <p class="text 3xl font-bold">Time:</p>
+    <section class="py-2"></section>
+    <div class="dropdown dropdown-hover">
+      <label tabindex="0" class="btn m-1">Time</label>
+      <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a><input type="checkbox" class="checkbox" />10am-11am</a></li>
+        <li><a><input type="checkbox" class="checkbox" />11am-12pm</a></li>
+        <li><a><input type="checkbox" class="checkbox" />12pm-1pm</a></li>
+        <li><a><input type="checkbox" class="checkbox" />1pm-2pm</a></li>
+        <li><a><input type="checkbox" class="checkbox" />2pm-3pm</a></li>
+        <li><a><input type="checkbox" class="checkbox" />3pm-4pm</a></li>
+        <li><a><input type="checkbox" class="checkbox" />4pm-5pm</a></li>
+        <li><a><input type="checkbox" class="checkbox" />5pm-6pm</a></li>
+      </ul>
+    </div>
+    <section class="py-2"></section>
+    <ul class="steps steps-vertical lg:steps-horizontal">
+      <li class="step step-primary">Information</li>
+      <li class="step step-primary">Choose date</li>
+      <li class="step">Confirm Purchase</li>
+      <li class="step">Done</li>
+    </ul>
+    <section class="py-3"></section>
+    <button class="btn"><a id="next-page">Next</a></button>
+  </div>
+</body>
+</html>
