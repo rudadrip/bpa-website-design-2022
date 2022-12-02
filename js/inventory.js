@@ -16,7 +16,7 @@ searchInput.addEventListener("input", e => {
 
 
 function insertCars() {
-  fetch("/assets/data/cars.json")
+  fetch("/bpa-website-design-2022/assets/data/cars.json")
   .then(res => res.json())
   .then(data => {
     cars = data.map(user => {
